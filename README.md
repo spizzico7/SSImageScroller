@@ -2,15 +2,15 @@
 iOS Image Scroller autoadaptive with customizable scroll indicator. It can use arrays of [UIImage imageNamed:@"nameofimage"] or NSURL array
 
 #Installation 
-1 - Download test project \n
-2 - Copying SSImageSlider.h and SSImageSlider.m into your new project\n
-3 - Create new UIView in your UIViewController (you can use XIB or Storyboard)\n
-4 - Assign SSImageSlider as class to your new UIView\n
-5 - Select "selection color" in the side tab on Xib controller\n
-6 - Add the delegation method below to your UIViewController\n
-7 - Attach Delegate and Datasource to your Controller\n
-8 - Add <SSImageSliderDelegate, SSImageSliderDataSource> to your Controller\n
-9 - Build and run\n
+1 - Download test project 
+2 - Copying SSImageSlider.h and SSImageSlider.m into your new project
+3 - Create new UIView in your UIViewController (you can use XIB or Storyboard)
+4 - Assign SSImageSlider as class to your new UIView
+5 - Select "selection color" in the side tab on Xib controller
+6 - Add the delegation method below to your UIViewController
+7 - Attach Delegate and Datasource to your Controller
+8 - Add <SSImageSliderDelegate, SSImageSliderDataSource> to your Controller
+9 - Build and run
 
 #SSImagePager DataSource
 - (NSArray *) arrayWithImages:(SSImageSlider*)pager
